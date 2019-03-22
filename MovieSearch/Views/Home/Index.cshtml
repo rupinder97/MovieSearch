@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Search your movie</h2>
+<form method="post" action="/movie">
+      @Html.Label("Movie Name")<br>
+    @Html.TextBox("moviename")<br>
+
+    <button type="submit" >Search</button>
+</form>
+
+
+
